@@ -2,6 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/src/com.paulorosa.app/config/
+
 
 ### Eclipse ###
 .apt_generated
@@ -21,7 +23,7 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-/config/
+
 
 ### VS Code ###
 .vscode/
