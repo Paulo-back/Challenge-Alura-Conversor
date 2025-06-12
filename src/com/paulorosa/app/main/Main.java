@@ -11,7 +11,7 @@ import java.util.Map;
 
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Conversor conversor = new Conversor();
         int escolha = 0;
         while (escolha!=-1){
@@ -19,6 +19,11 @@ public class Main {
             if (escolha == -1){
                 break;
             }
+//            else if (escolha == 0){
+//                System.out.println("Escolha uma operação valida!!!");
+//                esperar(2);
+//                escolha = conversor.Menu();
+//            }
 
             conversor.ValorMoedaBase();
             String recebe = conversor.consultaApi(escolha);
